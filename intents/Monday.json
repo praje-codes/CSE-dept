@@ -1,0 +1,217 @@
+{
+  "id": "bfc5b2dc-578e-495b-a2bc-f81dd0fd3bbf",
+  "name": "Monday",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Monday-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "01a58565-85e9-41b2-92e0-7be137fed0b2",
+          "name": "date",
+          "required": false,
+          "dataType": "@sys.date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "On Monday, batch 1 has DAA lab, batch 2 has micro-controller lab and batch 3 can go home after 1 pm. Navigate through the chips to try other features.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "table_card",
+          "platform": "google",
+          "title": "Monday Timetable",
+          "textToSpeech": "",
+          "image": {},
+          "lang": "en",
+          "columnProperties": [
+            {
+              "header": "Timing",
+              "horizontalAlignment": "CENTER"
+            },
+            {
+              "header": "Lectures",
+              "horizontalAlignment": "CENTER"
+            }
+          ],
+          "rows": [
+            {
+              "cells": [
+                {
+                  "text": "8:30 am"
+                },
+                {
+                  "text": "OS"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "9:30 am"
+                },
+                {
+                  "text": "OS"
+                }
+              ],
+              "dividerAfter": true
+            },
+            {
+              "cells": [
+                {
+                  "text": "10:30 am"
+                },
+                {
+                  "text": "TEA"
+                }
+              ],
+              "dividerAfter": true
+            },
+            {
+              "cells": [
+                {
+                  "text": "11:00 am"
+                },
+                {
+                  "text": "DC"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "12 noon"
+                },
+                {
+                  "text": "MAT-4"
+                }
+              ],
+              "dividerAfter": true
+            },
+            {
+              "cells": [
+                {
+                  "text": "1:00 pm"
+                },
+                {
+                  "text": "LUNCH"
+                }
+              ],
+              "dividerAfter": true
+            },
+            {
+              "cells": [
+                {
+                  "text": "1:30 pm"
+                },
+                {
+                  "text": "LAB"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "2:30 pm"
+                },
+                {
+                  "text": "LAB"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "3:30 pm"
+                },
+                {
+                  "text": "LAB"
+                }
+              ],
+              "dividerAfter": false
+            }
+          ],
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Developer"
+            },
+            {
+              "title": "Documents"
+            },
+            {
+              "title": "Home"
+            },
+            {
+              "title": "Exit"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "This is the Monday timetable."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

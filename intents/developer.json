@@ -1,0 +1,122 @@
+{
+  "id": "3d201185-23d2-4888-86a4-a10c228c06d1",
+  "name": "developer",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "developer-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "This is Prajwal Singh.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "subtitle": "2KE18CS028",
+          "title": "Prajwal Singh",
+          "buttons": [
+            {
+              "openUrlAction": {
+                "url": "https://www.instagram.com/praj_e/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              },
+              "title": "Instagram"
+            }
+          ],
+          "textToSpeech": "",
+          "formattedText": "Hi! I am prajwal. I made this google assistant. I am very thankful for your time to try my assistant.",
+          "image": {
+            "url": "https://www.dropbox.com/s/53bryv2z5wf4q5l/fefwedf.JPG?dl\u003d1",
+            "accessibilityText": "."
+          },
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Do you want to try something else?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Documents"
+            },
+            {
+              "title": "Timetable"
+            },
+            {
+              "title": "IBOCS"
+            },
+            {
+              "title": "Home"
+            },
+            {
+              "title": "Exit"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

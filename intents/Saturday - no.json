@@ -1,0 +1,43 @@
+{
+  "id": "6ad11720-5492-463f-b9d4-87fa9123d16c",
+  "parentId": "6012fff1-dcc9-4929-ad9d-aa3972e5c6da",
+  "rootParentId": "6012fff1-dcc9-4929-ad9d-aa3972e5c6da",
+  "name": "Saturday - no",
+  "auto": true,
+  "contexts": [
+    "Saturday-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Saturday.Saturday-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for using our services."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

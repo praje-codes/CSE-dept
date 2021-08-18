@@ -1,0 +1,217 @@
+{
+  "id": "6012fff1-dcc9-4929-ad9d-aa3972e5c6da",
+  "name": "Saturday",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Saturday-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "522c8a27-d928-41de-a0a7-4facdc9c206d",
+          "name": "date",
+          "required": false,
+          "dataType": "@sys.date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "IBOCS is very important. Would you like to try other features?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "table_card",
+          "platform": "google",
+          "title": "Saturday Timetable",
+          "textToSpeech": "",
+          "image": {},
+          "lang": "en",
+          "columnProperties": [
+            {
+              "header": "Timing",
+              "horizontalAlignment": "CENTER"
+            },
+            {
+              "header": "Lectures",
+              "horizontalAlignment": "CENTER"
+            }
+          ],
+          "rows": [
+            {
+              "cells": [
+                {
+                  "text": "8:30 am"
+                },
+                {
+                  "text": "CPC"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "9:30 am"
+                },
+                {
+                  "text": "OS"
+                }
+              ],
+              "dividerAfter": true
+            },
+            {
+              "cells": [
+                {
+                  "text": "10:30 am"
+                },
+                {
+                  "text": "TEA"
+                }
+              ],
+              "dividerAfter": true
+            },
+            {
+              "cells": [
+                {
+                  "text": "11:00 am"
+                },
+                {
+                  "text": "MPE"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "12 noon"
+                },
+                {
+                  "text": "DAA"
+                }
+              ],
+              "dividerAfter": true
+            },
+            {
+              "cells": [
+                {
+                  "text": "1:00 pm"
+                },
+                {
+                  "text": "LUNCH"
+                }
+              ],
+              "dividerAfter": true
+            },
+            {
+              "cells": [
+                {
+                  "text": "1:30 pm"
+                },
+                {
+                  "text": "IBOCS"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "2:30 pm"
+                },
+                {
+                  "text": "IBOCS"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "3:30 pm"
+                },
+                {
+                  "text": "IBOCS"
+                }
+              ],
+              "dividerAfter": false
+            }
+          ],
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Developer"
+            },
+            {
+              "title": "Documents"
+            },
+            {
+              "title": "Home"
+            },
+            {
+              "title": "Exit"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "This is the Saturday timetable."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

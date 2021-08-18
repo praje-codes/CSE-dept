@@ -1,0 +1,97 @@
+[
+  {
+    "id": "b94abeaa-7f65-48a4-8a00-fb9e26d14278",
+    "data": [
+      {
+        "text": "I need Timetable of ",
+        "userDefined": false
+      },
+      {
+        "text": "Friday",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fa418932-a128-45d2-ab90-4a600c5ed769",
+    "data": [
+      {
+        "text": "What is on ",
+        "userDefined": false
+      },
+      {
+        "text": "Friday",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2bc73d75-9208-4d8c-bf1b-9aeccc56e7b1",
+    "data": [
+      {
+        "text": "Tell me about ",
+        "userDefined": false
+      },
+      {
+        "text": "Friday",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a344f338-16fb-407f-899b-b35b839a20de",
+    "data": [
+      {
+        "text": "Friday",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      },
+      {
+        "text": " Timetable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "910c6c99-b2af-4e34-bc65-744bb4d0a567",
+    "data": [
+      {
+        "text": "Friday",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

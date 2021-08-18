@@ -1,0 +1,217 @@
+{
+  "id": "634bb73c-ca10-4478-80ac-e2b75340934a",
+  "name": "Thursday",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Thursday-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7fcfa7b5-c5c9-4fb7-b437-36dddddfb7bb",
+          "name": "date",
+          "required": false,
+          "dataType": "@sys.date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Would you like to try something else?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "table_card",
+          "platform": "google",
+          "title": "Thursday Timetable",
+          "textToSpeech": "",
+          "image": {},
+          "lang": "en",
+          "columnProperties": [
+            {
+              "header": "Timing",
+              "horizontalAlignment": "CENTER"
+            },
+            {
+              "header": "Lectures",
+              "horizontalAlignment": "CENTER"
+            }
+          ],
+          "rows": [
+            {
+              "cells": [
+                {
+                  "text": "8:30 am"
+                },
+                {
+                  "text": "DC"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "9:30 am"
+                },
+                {
+                  "text": "DAA"
+                }
+              ],
+              "dividerAfter": true
+            },
+            {
+              "cells": [
+                {
+                  "text": "10:30 am"
+                },
+                {
+                  "text": "TEA"
+                }
+              ],
+              "dividerAfter": true
+            },
+            {
+              "cells": [
+                {
+                  "text": "11:00 am"
+                },
+                {
+                  "text": "MAT-4"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "12 noon"
+                },
+                {
+                  "text": "MPE"
+                }
+              ],
+              "dividerAfter": true
+            },
+            {
+              "cells": [
+                {
+                  "text": "1:00 pm"
+                },
+                {
+                  "text": "LUNCH"
+                }
+              ],
+              "dividerAfter": true
+            },
+            {
+              "cells": [
+                {
+                  "text": "1:30 pm"
+                },
+                {
+                  "text": "OOC"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "2:30 pm"
+                },
+                {
+                  "text": "OOC"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "3:30 pm"
+                },
+                {
+                  "text": "-"
+                }
+              ],
+              "dividerAfter": false
+            }
+          ],
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Developer"
+            },
+            {
+              "title": "Documents"
+            },
+            {
+              "title": "Home"
+            },
+            {
+              "title": "Exit"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "This is Thursday Timetable."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

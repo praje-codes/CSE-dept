@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1a7c1608-c767-4e86-8ccd-f06f6a37f916",
+    "data": [
+      {
+        "text": "Time table",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dd416e8e-de03-46c9-904c-f4d117f2427b",
+    "data": [
+      {
+        "text": "Tell me about the Timetable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "25cfd056-6820-4dfa-8ee9-7988d224ba6d",
+    "data": [
+      {
+        "text": "What is the Timetable?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a8106776-266f-49ac-afc0-9453d83add38",
+    "data": [
+      {
+        "text": "Timetable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

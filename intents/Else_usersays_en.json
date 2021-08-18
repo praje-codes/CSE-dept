@@ -1,0 +1,67 @@
+[
+  {
+    "id": "b135184d-df57-430b-ae6a-3bbdb3c5acdd",
+    "data": [
+      {
+        "text": "What else can I try?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a7c7f3d6-3513-4ed0-a4e3-6da0e7353e64",
+    "data": [
+      {
+        "text": "What can you do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dad169d8-b104-40dc-81ed-b2e97955f7b3",
+    "data": [
+      {
+        "text": "What other features are there?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "21e5455d-d6e3-4408-b2db-4cb125ddd691",
+    "data": [
+      {
+        "text": "What are your features?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b0fb93ef-6337-48cf-b7e8-f1343620b57b",
+    "data": [
+      {
+        "text": "What else can you do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,217 @@
+{
+  "id": "e7e3c875-11d8-4738-bedf-6c5a85240261",
+  "name": "Wednesday",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Wednesday-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "303bb1b3-706b-43c8-8648-52415b4f5ae3",
+          "name": "date",
+          "required": false,
+          "dataType": "@sys.date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "On Wednesday, batch 1 has micro-controller lab, batch 2 can go home after 1 pm and batch 3 has DAA lab. Would you like to try something else?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "table_card",
+          "platform": "google",
+          "title": "Wednesday Timetable",
+          "textToSpeech": "",
+          "image": {},
+          "lang": "en",
+          "columnProperties": [
+            {
+              "header": "Timing",
+              "horizontalAlignment": "CENTER"
+            },
+            {
+              "header": "Lectures",
+              "horizontalAlignment": "CENTER"
+            }
+          ],
+          "rows": [
+            {
+              "cells": [
+                {
+                  "text": "8:30 am"
+                },
+                {
+                  "text": "-"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "9:30 am"
+                },
+                {
+                  "text": "MAT-4"
+                }
+              ],
+              "dividerAfter": true
+            },
+            {
+              "cells": [
+                {
+                  "text": "10:30 am"
+                },
+                {
+                  "text": "TEA"
+                }
+              ],
+              "dividerAfter": true
+            },
+            {
+              "cells": [
+                {
+                  "text": "11:00 am"
+                },
+                {
+                  "text": "DAA"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "12 noon"
+                },
+                {
+                  "text": "MPE"
+                }
+              ],
+              "dividerAfter": true
+            },
+            {
+              "cells": [
+                {
+                  "text": "1:00 pm"
+                },
+                {
+                  "text": "LUNCH"
+                }
+              ],
+              "dividerAfter": true
+            },
+            {
+              "cells": [
+                {
+                  "text": "1:30 pm"
+                },
+                {
+                  "text": "LAB"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "2:30 pm"
+                },
+                {
+                  "text": "LAB"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "3:30 pm"
+                },
+                {
+                  "text": "LAB"
+                }
+              ],
+              "dividerAfter": false
+            }
+          ],
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Developer"
+            },
+            {
+              "title": "Documents"
+            },
+            {
+              "title": "Home"
+            },
+            {
+              "title": "Exit"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "This is the Wednesday Timetable."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

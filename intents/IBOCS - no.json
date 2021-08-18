@@ -1,0 +1,43 @@
+{
+  "id": "a6362f49-7857-4f18-b024-78a00a1cb7d7",
+  "parentId": "f6e857c3-42ab-44e2-ae8c-3c4bc1827eda",
+  "rootParentId": "f6e857c3-42ab-44e2-ae8c-3c4bc1827eda",
+  "name": "IBOCS - no",
+  "auto": true,
+  "contexts": [
+    "IBOCS-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "IBOCS.IBOCS-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for using our services."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

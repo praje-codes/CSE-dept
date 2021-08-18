@@ -1,0 +1,43 @@
+{
+  "id": "eddb4947-c4b2-44b5-8519-aed4fbc2ccba",
+  "parentId": "bfc5b2dc-578e-495b-a2bc-f81dd0fd3bbf",
+  "rootParentId": "bfc5b2dc-578e-495b-a2bc-f81dd0fd3bbf",
+  "name": "Monday - no",
+  "auto": true,
+  "contexts": [
+    "Monday-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Monday.Monday-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for using our services."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

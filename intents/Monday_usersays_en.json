@@ -1,0 +1,139 @@
+[
+  {
+    "id": "89f427ae-ef42-4a6d-afa2-bc5c1057e414",
+    "data": [
+      {
+        "text": "i need timetable of ",
+        "userDefined": false
+      },
+      {
+        "text": "monday",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a1f2aacd-787c-47a8-bcae-72e12d7fe0f8",
+    "data": [
+      {
+        "text": "i need the ",
+        "userDefined": false
+      },
+      {
+        "text": "monday",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      },
+      {
+        "text": " timetable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "98221d8e-4ed3-4725-852e-e126c848754c",
+    "data": [
+      {
+        "text": "Tell me about ",
+        "userDefined": false
+      },
+      {
+        "text": "monday",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "25e458bf-8a4e-4df3-a351-b6f30c9e5112",
+    "data": [
+      {
+        "text": "what is on ",
+        "userDefined": false
+      },
+      {
+        "text": "monday",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8529d901-a6d3-4821-8856-f5ee15d4b5a8",
+    "data": [
+      {
+        "text": "Give me ",
+        "userDefined": false
+      },
+      {
+        "text": "monday",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      },
+      {
+        "text": " timetable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eddd0055-1be2-4de8-b9f0-210d2231f5f8",
+    "data": [
+      {
+        "text": "Monday",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3286216a-295a-4d69-b2c1-48bd2a3676f2",
+    "data": [
+      {
+        "text": "Monday",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      },
+      {
+        "text": " timetable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "id": "c980fba7-86e6-46f2-9526-b9a45dfce5df",
+  "parentId": "774c98e8-ff2e-4a75-9ca0-0e4d8ce7c809",
+  "rootParentId": "774c98e8-ff2e-4a75-9ca0-0e4d8ce7c809",
+  "name": "Notes - no",
+  "auto": true,
+  "contexts": [
+    "Notes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Notes.Notes-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for using our services."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

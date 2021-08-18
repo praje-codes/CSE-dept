@@ -1,0 +1,28 @@
+[
+  {
+    "id": "ac5eef45-749f-484c-8cfb-ac317da101ee",
+    "data": [
+      {
+        "text": "Yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "84159168-a814-4c06-8c48-b0734f1e058b",
+    "data": [
+      {
+        "text": "Home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

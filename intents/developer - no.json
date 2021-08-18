@@ -1,0 +1,43 @@
+{
+  "id": "856cdfb9-f9a5-4f3d-a3c6-895dd19c3b6e",
+  "parentId": "3d201185-23d2-4888-86a4-a10c228c06d1",
+  "rootParentId": "3d201185-23d2-4888-86a4-a10c228c06d1",
+  "name": "developer - no",
+  "auto": true,
+  "contexts": [
+    "developer-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "developer.developer-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for using our services."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}
